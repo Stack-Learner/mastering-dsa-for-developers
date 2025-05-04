@@ -3,7 +3,7 @@
 // import TagMatcher from './features/tag_matcher/TagMatcher';
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
 
-import TaskScheduler from './features/task_scheduler/TaskScheduler';
+import TeamFormation from './features/team_formation/TeamFormation';
 
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
 
@@ -31,7 +31,20 @@ function App() {
 			{/* <UndoRedoDemo /> */}
 			{/* <TagMatcher /> */}
 			{/* <InfixCalculator /> */}
-			<TaskScheduler />
+			{/* <TaskScheduler /> */}
+			{/* <BookingPage
+				startTime='09:00'
+				endTime='19:00'
+				duration={60}
+				blockedHours={[
+					['09:00', '10:00'],
+					['12:00', '13:00'],
+					['14:00', '16:00'],
+				]}
+			/> */}
+			{/* <ProductVariation /> */}
+			{/* <MeetingScheduler /> */}
+			<TeamFormation />
 		</div>
 	);
 }
