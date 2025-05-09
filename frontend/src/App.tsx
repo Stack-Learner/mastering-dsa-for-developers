@@ -3,7 +3,9 @@
 // import TagMatcher from './features/tag_matcher/TagMatcher';
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
 
-import TeamFormation from './features/team_formation/TeamFormation';
+// import SearchUsingTree from './features/search_tree/SearchUsingTree';
+import SearchUsingTrie from './features/search_tree/SearchUsingTrie';
+// import TeamFormation from './features/team_formation/TeamFormation';
 
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
 
@@ -44,7 +46,8 @@ function App() {
 			/> */}
 			{/* <ProductVariation /> */}
 			{/* <MeetingScheduler /> */}
-			<TeamFormation />
+			{/* <TeamFormation /> */}
+			<SearchUsingTrie />
 		</div>
 	);
 }

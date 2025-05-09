@@ -100,6 +100,8 @@ users.forEach((user) => {
 	trie.insert(user);
 });
 
+console.log(trie.root);
+
 export default function SearchUsingTrie() {
 	const [searchQuery, setSearchQuery] = useState('');
 	const [searchResults, setSearchResults] = useState<User[]>([]);
