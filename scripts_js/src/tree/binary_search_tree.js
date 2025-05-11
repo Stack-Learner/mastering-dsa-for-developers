@@ -111,8 +111,6 @@ class BinaryTree {
 const data = [10, 5, 15, 3, 7, 12, 18, 1, 9, 14, 17, 20];
 const tree = new BinaryTree();
 
-data.forEach((value) => tree.insert(value));
-
 tree.print();
 
 console.log(tree.preOrder());
