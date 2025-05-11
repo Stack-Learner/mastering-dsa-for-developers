@@ -4,7 +4,12 @@
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
 
 // import SearchUsingTree from './features/search_tree/SearchUsingTree';
+import GraphDemo from './features/graph_demo/GraphDemo';
+import WeightedGraphDemo from './features/graph_demo/WieghtedGraphDemo';
+import PriorityTask from './features/priority_tasks/PriorityTask';
 import SearchUsingTrie from './features/search_tree/SearchUsingTrie';
+import AutoSuggest from './features/auto_suggest/AutoSuggest';
+import { SimpleGraph } from './features/graph_demo/SimpleGraph';
 // import TeamFormation from './features/team_formation/TeamFormation';
 
 // import UndoRedoDemo from './features/undo_redo/UndoRedoDemo';
@@ -47,7 +52,12 @@ function App() {
 			{/* <ProductVariation /> */}
 			{/* <MeetingScheduler /> */}
 			{/* <TeamFormation /> */}
-			<SearchUsingTrie />
+			{/* <SearchUsingTrie /> */}
+			{/* <PriorityTask /> */}
+			{/* <AutoSuggest /> */}
+			{/* <GraphDemo /> */}
+			<WeightedGraphDemo />
+			{/* <SimpleGraph /> */}
 		</div>
 	);
 }
